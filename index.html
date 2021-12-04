@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Advent of Code : Piano</title>
+    <title>Advent of Code Day 3 : Piano</title>
 </head>
 <body>
     <object id="piano" data="assets/images/piano.svg" type="image/svg+xml">
         Piano
     </object>
-    <script src="app.js" ></script>
-
+    <script src="app.js" ></script> 
+<!-- 
+    JS file has to be loaded after the SVG object in order for it to be accessible
+    another option is to directly use an inline SVG.
+    
+    I used an object because I didn't want to clutter the html
+-->
 </body>
 </html>
