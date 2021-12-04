@@ -1,5 +1,6 @@
 *.md
 *.fig
-.DS_Store
-.vscode
+*.DS_Store
+**.vscode
 !README.md
+*key24.mp3
