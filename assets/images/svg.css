@@ -1,0 +1,29 @@
+.white-keys {
+  fill: whitesmoke;
+  transition: all .2s;
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+}
+
+.black-keys {
+  fill: black;
+  transition: all .2s;
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+}
+
+.white-keys:hover {
+  fill: #FFBF00;
+
+}
+
+.white-keys:active, .black-keys:active {
+  transform: scale(0.95);
+}
+
+.black-keys:hover {
+  fill: #08a4bd;
+
+}
+
+

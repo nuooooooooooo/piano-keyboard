@@ -1,0 +1,38 @@
+/*
+  snippet from Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+  }
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+/* 
+    end of custom CSS Reset 
+*/
+
+body {
+    background-color: #1d181d;
+}
+
+#piano {
+    align-self: center;
+    justify-self: center;
+    margin: 0 auto;
+    width: min(80%, 1000px);
+    background-color: #784a83;
+    padding: 30px;
+    border-radius: 10px;
+}
+
